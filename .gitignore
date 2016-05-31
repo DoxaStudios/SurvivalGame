@@ -22,6 +22,10 @@
 *.a
 *.lib
 
+*.vs
+.suo
+
+
 # Executables
 *.exe
 *.out
