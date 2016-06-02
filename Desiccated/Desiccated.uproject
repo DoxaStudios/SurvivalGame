@@ -10,12 +10,6 @@
 			"LoadingPhase": "Default"
 		}
 	],
-	"Plugins": [
-		{
-			"Name": "Substance",
-			"Enabled": true
-		}
-	],
 	"TargetPlatforms": [
 		"MacNoEditor",
 		"WindowsNoEditor",
