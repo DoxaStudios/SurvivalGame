@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.1",
+	"FriendlyName": "AutoTerrainTexturer",
+	"Description": "Contains material functions and grass type ground cover to help make terrain easier. Also contains an example material that shows how to have dynamic terrain texturing based on slope as well as manual texturing with the terrain painter. ",
+	"Category": "Terrain",
+	"CreatedBy": "Mitchell - 12 CatBlack Studios",
+	"CreatedByURL": "https://www.youtube.com/channel/UCuTn2jMK6VDuzeIeJ6_j1pA",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://www.facebook.com/12-CatBlack-Studios-152913014823124/",
+	"Modules": [
+		{
+			"Name": "AutoTerrainTexturer",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false
+}
