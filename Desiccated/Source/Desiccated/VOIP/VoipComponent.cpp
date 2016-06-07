@@ -20,7 +20,8 @@ UVoipComponent::UVoipComponent()
 void UVoipComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
+	IOnlineSubsystem* OnlineSub = IOnlineSubsystem::Get();
+	//OnlineSub->
 	// ...
 	
 }

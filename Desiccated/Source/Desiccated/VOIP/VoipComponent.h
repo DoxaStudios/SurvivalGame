@@ -16,6 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UVoipComponent();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = default)
+	int32 id;
+
 	// Called when the game starts
 	virtual void BeginPlay() override;
 	
