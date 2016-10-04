@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<settingsinfo>
+		<version>2</version>
+	</settingsinfo>
+	<projectinfo>
+		<label>ModularBuilding</label>
+	</projectinfo>
+	<preferences>
+		<view3d>
+			<iray>
+				<mdl_paths>
+					<size>0</size>
+				</mdl_paths>
+			</iray>
+			<defaultshaderurl>file:///C:/Program Files/Allegorithmic/Substance Designer 5/resources/view3d/shaders/physically_metallic_roughness.glslfx</defaultshaderurl>
+			<defaultenvironmentmapurl>file:///C:/Program Files/Allegorithmic/Substance Designer 5/resources/view3d/maps/panorama_map.hdr</defaultenvironmentmapurl>
+		</view3d>
+		<versioncontrol>
+			<workspaces>
+				<size>0</size>
+			</workspaces>
+			<settingsinfo>
+				<version>2</version>
+			</settingsinfo>
+		</versioncontrol>
+		<scripting>
+			<interpreters>
+				<size>0</size>
+			</interpreters>
+			<actions>
+				<size>3</size>
+				<_3 prefix="_">
+					<script_path>$(PROJECT_DIR)://</script_path>
+					<label>getGraphExportOptions</label>
+					<id>getGraphExportOptions</id>
+					<enabled>true</enabled>
+				</_3>
+				<_2 prefix="_">
+					<script_path>$(PROJECT_DIR)://</script_path>
+					<label>onAfterFileSaved</label>
+					<id>onAfterFileSaved</id>
+					<enabled>true</enabled>
+				</_2>
+				<_1 prefix="_">
+					<script_path>$(PROJECT_DIR)://</script_path>
+					<label>onBeforeFileSaved</label>
+					<id>onBeforeFileSaved</id>
+					<enabled>true</enabled>
+				</_1>
+			</actions>
+		</scripting>
+		<scenes3d>
+			<tangentspaceplugin>file:///C:/Program Files/Allegorithmic/Substance Designer 5/plugins/tangentspace/mikktspace.dll</tangentspaceplugin>
+			<smoothingangle>180</smoothingangle>
+			<computebinormalinfragmentshader>true</computebinormalinfragmentshader>
+			<alwaysrecomputetangentframe>false</alwaysrecomputetangentframe>
+		</scenes3d>
+		<sbstemplates>
+			<dirs>
+				<size>0</size>
+			</dirs>
+		</sbstemplates>
+		<resources>
+			<urlaliases>
+				<size>0</size>
+			</urlaliases>
+		</resources>
+		<library>
+			<watchedpaths>
+				<size>1</size>
+				<_1 prefix="_">
+					<url>file:///I:/Enigma/Maya Project/New Folder/Modular_Building_Parts/Exports</url>
+					<isrecursive>true</isrecursive>
+				</_1>
+			</watchedpaths>
+			<settingsinfo>
+				<version>2</version>
+			</settingsinfo>
+		</library>
+		<bakers>
+			<namefilters>
+				<size>2</size>
+				<_2 prefix="_">
+					<namefilter>
+						<size>1</size>
+						<_1 prefix="_">
+							<value>_high</value>
+							<namefilter>suffix</namefilter>
+						</_1>
+					</namefilter>
+					<meshid>high_poly_mesh</meshid>
+				</_2>
+				<_1 prefix="_">
+					<namefilter>
+						<size>1</size>
+						<_1 prefix="_">
+							<value>_low</value>
+							<namefilter>suffix</namefilter>
+						</_1>
+					</namefilter>
+					<meshid>low_poly_mesh</meshid>
+				</_1>
+			</namefilters>
+			<defaultresourcename></defaultresourcename>
+			<bakersmacros>
+				<size>16</size>
+				<_9 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.NormalWS</bakerid>
+				</_9>
+				<_8 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.NormalFromDetail</bakerid>
+				</_8>
+				<_7 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.MaskFromDetail</bakerid>
+				</_7>
+				<_6 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.HeightFromDetail</bakerid>
+				</_6>
+				<_5 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.CurvatureFromDetail</bakerid>
+				</_5>
+				<_4 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.Curvature</bakerid>
+				</_4>
+				<_3 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.ColorFromDetail</bakerid>
+				</_3>
+				<_2 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.BentNormalsFromDetail</bakerid>
+				</_2>
+				<_16 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>VectorialMeshConverter</bakerid>
+				</_16>
+				<_15 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.WorldDirection</bakerid>
+				</_15>
+				<_14 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.ThicknessFromDetail</bakerid>
+				</_14>
+				<_13 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.TextureFromDetail</bakerid>
+				</_13>
+				<_12 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.SeAO</bakerid>
+				</_12>
+				<_11 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.PositionFromDetail</bakerid>
+				</_11>
+				<_10 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.Position</bakerid>
+				</_10>
+				<_1 prefix="_">
+					<macros>
+						<size>1</size>
+						<_1 prefix="_">
+							<value></value>
+							<key>$(custom)</key>
+						</_1>
+					</macros>
+					<bakerid>BakerMeshConverterGLMapBakerManager.AOFromDetail</bakerid>
+				</_1>
+			</bakersmacros>
+		</bakers>
+	</preferences>
+	<isvisible>true</isvisible>
+</root>
