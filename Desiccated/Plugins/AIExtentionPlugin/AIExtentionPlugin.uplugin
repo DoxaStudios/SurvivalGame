@@ -1,0 +1,21 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "AI Extentions Plugin",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Epic Games, Inc.",
+	"CreatedByURL" : "http://epicgames.com",
+	"EngineVersion" : "4.2",
+	"Description" : "A bunch of AI Extentions as a plugin.",
+	"Category" : "Examples",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "AIExtentionPlugin",
+			"Type" : "Runtime"
+		}
+	]
+}

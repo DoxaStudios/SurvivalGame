@@ -39,4 +39,10 @@ Temporary Items
 Intermediate
 Binaries
 Saved
-.apdisk
+*.apdisk
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.sln
+Desiccated/.vs/Desiccated/v14/.suo
